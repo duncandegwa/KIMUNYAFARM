@@ -7,22 +7,17 @@ html, body {
     --font-family: 'Karla', sans-serif;
     --body-bg: #1E1F25;
     --btn-bg: #000;
-    --btn-color: #cbcbcb;
-    --btn-color-hover: #fff;
+    --text-color: #cbcbcb;
+    --text-color-hover: #fff;
     --grad-color1: #eeaf61;
     --grad-color2: #fb9062;
     --grad-color3: #ee5d6c;
     --grad-color4: #ce4993;
     --grad-color5: #6a0d83;
+    --active-color: green;
 }
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+.welcome{
     margin: 0;
-    background: var(--body-bg)
-}
-h1{
-    font-family: var(--font-family);
+    height: 20%;
+    background-color: var(--active-color);
 }
