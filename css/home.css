@@ -14,10 +14,33 @@ html, body {
     --grad-color3: #ee5d6c;
     --grad-color4: #ce4993;
     --grad-color5: #6a0d83;
-    --active-color: green;
+    
 }
 .welcome{
-    margin: 0;
-    height: 20%;
-    background-color: var(--active-color);
+    
+    width: 80%;
+    overflow: auto;
+    background-color: var(--btn-bg);
+    border: 2px solid var(--grad-color3);
+    padding: 0.5em;
+    border-radius: 1.5em;
+    margin: auto;
+    margin-top: 2em;
+    
 }
+h1{
+    color: var(--text-color);
+    text-align: center;
+    
+}
+h2{
+    color: var(--grad-color2);
+    text-align: center;
+}
+img{
+    float: left;
+    border-radius: 150px;
+    margin: auto;
+}
+
+
