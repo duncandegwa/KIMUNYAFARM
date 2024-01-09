@@ -18,7 +18,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 20px;
     color: var(--text-color-hover);
-    position: relative;
+    margin-top: 20px;
    }
 
 .cnctflex{
