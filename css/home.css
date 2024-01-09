@@ -18,7 +18,7 @@ html, body {
 }
 .welcome{
     
-    width: 80%;
+    width: 90%;
     overflow: auto;
     background-color: var(--btn-bg);
     border: 2px solid var(--grad-color3);
@@ -26,21 +26,24 @@ html, body {
     border-radius: 1.5em;
     margin: auto;
     margin-top: 2em;
+   position: relative;
     
 }
-h1{
+h3{
     color: var(--text-color);
     text-align: center;
     
 }
-h2{
+h5{
     color: var(--grad-color2);
-    text-align: center;
+    
+    
 }
 img{
     float: left;
-    border-radius: 150px;
+    border-radius: 100px;
     margin: auto;
+    
 }
 
 
