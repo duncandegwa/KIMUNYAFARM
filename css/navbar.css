@@ -21,7 +21,7 @@ html, body {
 .container{
    /* display: flex;
     justify-content: center;*/
-    height: 10000px;
+    
     margin: 0;
     background: var(--body-bg);
     

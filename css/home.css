@@ -16,34 +16,47 @@ html, body {
     --grad-color5: #6a0d83;
     
 }
-.welcome{
-    
+.welcome1{
     width: 90%;
-    overflow: auto;
     background-color: var(--btn-bg);
-    border: 2px solid var(--grad-color3);
-    padding: 0.5em;
-    border-radius: 1.5em;
+    margin-left: 100px;
+    overflow: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
     margin: auto;
-    margin-top: 2.3em;
-   
-    
+    border-radius: 20px;
+    margin-top: 20px;
 }
-h3{
+.welcome{
+    width: 90%;
+    background-color: var(--btn-bg);
+    padding-top: px;
+    overflow: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.welcome1, .welcome  p{
     color: var(--text-color);
+    font-size: 30px;
+    padding: 5px 5px;
     text-align: center;
-    
+    line-height: 40px;
+   
 }
-h5{
-    color: var(--grad-color2);
-    
-    
-}
-img{
+
+.wel1{
+    margin-top: 20px;
     float: left;
-    border-radius: 100px;
-    margin: auto;
+    border: 2px solid green;
+    border-radius: 170px;
+    margin-left: 10px;
     
 }
-
-
+span{
+    border-bottom: 2px solid goldenrod;
+}

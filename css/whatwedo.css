@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-family: 'Karla', sans-serif;
+    --body-bg: #1E1F25;
+    --btn-bg: #000;
+    --text-color: #cbcbcb;
+    --text-color-hover: #fff;
+    --grad-color1: #eeaf61;
+    --grad-color2: #fb9062;
+    --grad-color3: #ee5d6c;
+    --grad-color4: #ce4993;
+    --grad-color5: #6a0d83;
+    
+}
+
+.ongoingprjts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--btn-bg);
+    text-align: center;
+    
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 40px;
+    overflow: auto;
+    margin-top: 20px;
+
+}
+.project1 H4{
+    text-align: center;
+    color: #ee5d6c;
+}
+h3{
+    color: var(--text-color);
+    text-align: center;
+    padding-top: 20px;
+    font-family: var(--font-family);
+    font-size: 25px;
+    
+}
+.project1{
+    width: 400px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 10px;
+}
+.project_content{
+    width: 400px;
+    margin-top: 10px;
+}
+.project_content p{
+     color: var(--text-color);
+     font-size: 16px;
+     font-family: var(--font-family);
+     padding: 5px;
+     text-align: justify;
+}
+.project_content p span{
+    background-color: var(--body-bg);
+    border-radius: 6px;
+    color: var(--text-color);
+    border: 1px solid rgb(245, 224, 179);
+    padding: 8px;
+    font-size: 18px;
+    font-family: var(--font-family);
+    text-align: center;
+    
+}
+.project_content p span:hover{
+    background-color: #013300;
+    color: greenyellow;
+    cursor: pointer;
+    border: 1px solid greenyellow;
+}

@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-family: 'Karla', sans-serif;
+    --body-bg: #1E1F25;
+    --btn-bg: #000;
+    --text-color: #cbcbcb;
+    --text-color-hover: #fff;
+    --grad-color1: #eeaf61;
+    --grad-color2: #fb9062;
+    --grad-color3: #ee5d6c;
+    --grad-color4: #ce4993;
+    --grad-color5: #6a0d83;
+    
+}
+h3{
+    text-align: center;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    padding-top: 20px;
+}
+.fnews{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  
+   justify-content: center;
+    box-sizing: border-box;
+ 
+}
+.fnewsimg{
+    background-color: var(--btn-bg);
+    border: 2px solid var(--grad-color4);
+    width: 300px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+.fnewsimg p{
+    color: var(--text-color);
+    font-family: var(--font-family);
+    
+    
+}
+.fnewsimg button{
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #1a2902;
+    color: var(--text-color);
+    width: 200px;
+    border: 2px solid var(--grad-color5);
+    border-radius: 10px;
+
+}
+.fnewsimg button:hover{
+    background-color: rgb(3, 13, 109);
+    color: var(--text-color-hover);
+    border: 1px solid var(--grad-color4);
+    cursor: pointer;
+
+}

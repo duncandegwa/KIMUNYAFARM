@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-family: 'Karla', sans-serif;
+    --body-bg: #1E1F25;
+    --btn-bg: #000;
+    --text-color: #cbcbcb;
+    --text-color-hover: #fff;
+    --grad-color1: #eeaf61;
+    --grad-color2: #fb9062;
+    --grad-color3: #ee5d6c;
+    --grad-color4: #ce4993;
+    --grad-color5: #6a0d83;
+    
+}
+.dnote{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--grad-color3);
+    justify-content: center;
+ 
+    padding-top: 40px;
+    margin: auto;
+
+}
+.dnoteitems{
+    width: 300px;
+    background-color: #000;
+    text-align: center;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    height: 300px;
+   margin: 10px 10px;
+    border: 2px solid var(--grad-color5);
+    
+}
+p{
+   line-height: 30px;
+   font-size: 25px;
+   padding: 5px;
+}
+.dspan{
+    background-color: aqua;
+    color: var(--grad-color5);
+    border-radius: 10px;
+    padding: 5px;
+}
