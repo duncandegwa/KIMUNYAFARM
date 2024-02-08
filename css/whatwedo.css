@@ -21,7 +21,7 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: var(--btn-bg);
+    background-color: #183003;
     text-align: center;
     
     box-sizing: border-box;
@@ -29,6 +29,7 @@ html, body {
     border-radius: 40px;
     overflow: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 .project1 H4{
@@ -52,6 +53,7 @@ h3{
 .project_content{
     width: 400px;
     margin-top: 10px;
+    
 }
 .project_content p{
      color: var(--text-color);

@@ -32,8 +32,8 @@ h3{
  
 }
 .fnewsimg{
-    background-color: var(--btn-bg);
-    border: 2px solid var(--grad-color4);
+    background-color: #183003;
+    border: 2px solid #402908;
     width: 300px;
     padding: 25px;
     text-align: center;
@@ -55,15 +55,15 @@ h3{
     font-size: 15px;
     font-weight: bold;
     padding: 5px;
-    background-color: #1a2902;
+    background-color: #023112;
     color: var(--text-color);
     width: 200px;
-    border: 2px solid var(--grad-color5);
+    border: 2px solid var(--text-color-hover);
     border-radius: 10px;
 
 }
 .fnewsimg button:hover{
-    background-color: rgb(3, 13, 109);
+    background-color: #0d8833;
     color: var(--text-color-hover);
     border: 1px solid var(--grad-color4);
     cursor: pointer;

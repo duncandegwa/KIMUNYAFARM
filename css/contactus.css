@@ -9,7 +9,7 @@
     --grad-color3: #ee5d6c;
     --grad-color4: #ce4993;
     --grad-color5: #6a0d83;
-    --active-color: green;
+    --active-color: white;
     
 
 }
@@ -106,7 +106,7 @@ input[type=submit]:hover{
 .msg{
     background-color: var(--btn-bg);
     font-family: var(--font-family);
-    color: var(--grad-color2);
+    color: var(--text-color-hover);
     text-align: center;
     font-family: var(--font-family);
     width: 400px;
@@ -116,7 +116,7 @@ input[type=submit]:hover{
     font-size: 20px;
 }
 .ken{
-    border-radius: 130px;
+    border-radius: 180px;
     border: 2px dotted green;
 }
 span{

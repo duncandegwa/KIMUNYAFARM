@@ -5,8 +5,8 @@ html, body {
 
 :root {
     --font-family: 'Karla', sans-serif;
-    --body-bg: #1E1F25;
-    --btn-bg: #000;
+    --body-bg: #204b1c;
+    --btn-bg: #349029;
     --text-color: #cbcbcb;
     --text-color-hover: #fff;
     --grad-color1: #eeaf61;
@@ -14,12 +14,14 @@ html, body {
     --grad-color3: #ee5d6c;
     --grad-color4: #ce4993;
     --grad-color5: #6a0d83;
+    --active-color: white;
     
+
 }
 .dnote{
     display: flex;
     flex-wrap: wrap;
-    background-color: var(--grad-color3);
+    background-color: var(--body-bg);
     justify-content: center;
  
     padding-top: 40px;
@@ -28,13 +30,14 @@ html, body {
 }
 .dnoteitems{
     width: 300px;
-    background-color: #000;
+    background-color: #183003;
     text-align: center;
     color: var(--text-color);
     font-family: var(--font-family);
     height: 300px;
    margin: 10px 10px;
-    border: 2px solid var(--grad-color5);
+    border: 1px solid var(--text-color-hover);
+    border-radius: 20px;
     
 }
 p{

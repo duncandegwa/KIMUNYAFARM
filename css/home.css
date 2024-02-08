@@ -18,7 +18,7 @@ html, body {
 }
 .welcome1{
     width: 90%;
-    background-color: var(--btn-bg);
+    background-color: #183003;
     margin-left: 100px;
     overflow: auto;
     padding-left: 10px;
@@ -27,10 +27,11 @@ html, body {
     margin: auto;
     border-radius: 20px;
     margin-top: 20px;
+   
 }
 .welcome{
     width: 90%;
-    background-color: var(--btn-bg);
+    background-color: #183003;
     padding-top: px;
     overflow: auto;
     padding-left: 10px;
@@ -39,6 +40,7 @@ html, body {
     margin: auto;
     border-radius: 20px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .welcome1, .welcome  p{
     color: var(--text-color);
