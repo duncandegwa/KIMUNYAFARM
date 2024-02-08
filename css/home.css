@@ -46,11 +46,15 @@ html, body {
     color: var(--text-color);
     font-size: 30px;
     padding: 5px 5px;
-    text-align: center;
+    text-align: justify;
     line-height: 40px;
    
 }
-
+.welcome a{
+    text-decoration: underline;
+    color: greenyellow;
+    
+}
 .wel1{
     margin-top: 20px;
     float: left;
@@ -61,4 +65,5 @@ html, body {
 }
 span{
     border-bottom: 2px solid goldenrod;
+    
 }
